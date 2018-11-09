@@ -261,7 +261,7 @@ open class MobilePlayerViewController: MPMoviePlayerViewController {
     super.viewWillAppear(animated)
     // Force hide status bar.
     previousStatusBarHiddenValue = UIApplication.shared.isStatusBarHidden
-    UIApplication.shared.isStatusBarHidden = true
+    UIApplication.shared.isStatusBarHidden = false
     setNeedsStatusBarAppearanceUpdate()
   }
 
